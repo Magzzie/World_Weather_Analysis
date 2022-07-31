@@ -16,7 +16,7 @@ To perform this task we plan on taking the follwoing steps:
 - Finally, we will export the data, clean it, and use the weather data to choose the best cities for vacation based on certain weather criteria and then map these cities using Jupyter G maps and the Google Places API. 
 
 #### Second Stage Analysis: Upgrade the App
-PlanMyTrip Analysis Team and Beta testers love it the app. And, as with any new product, they’ve recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data we had already retrieved in this first stage of the project. Then, we will have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, we will create a travel route between the four cities as well as a marker layer map.
+PlanMyTrip Analysis Team and Beta testers love it the app. And, as with any new product, they have recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data we had already retrieved in the first stage of the project. Then, we will have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, we will create a travel route between the four cities as well as a marker layer map.
 
 
 ### Purpose
@@ -29,7 +29,10 @@ The end results will be a series of plots that visually and statistically show t
 
 ## Objectives
 
-
+### Second Stage: Upgrade the App
+1. Retrieve Weather Data
+2. Create a Customer Travel Destinations Map
+3. Create a Travel Itinerary Map
 
 
 ## Resources
@@ -41,12 +44,37 @@ The end results will be a series of plots that visually and statistically show t
 
 ## Methods 
 
+1. Retrieve Weather Data: 
+    - We generated a set of 2,000 random latitudes and longitudes, retrieved the nearest city, and performed an API call with the OpenWeatherMap. 
+    - In addition to the city weather data we gathered in the first stage of the project, we used our API skills to retrieve the current weather description for each city. 
+    - Then, we created a new DataFrame containing the updated weather data.
 
+2. Create a Customer Travel Destinations Map:
+- We used input statements to retrieve customer weather preferences, then used those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
+
+
+
+
+
+
+- We started the upgrade analysis by adding the weather description to the weather data we had already retrieved in the first stage of the project. 
+
+- Then, we created a filtering option to allow the beta testers to use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. 
+
+- From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. 
+
+
+- Finally, using the Google Maps Directions API, we would create a travel route between the four cities as well as a marker layer map.
 
 
 ## Results
 
-
+1. Retrieving Weather Data: 
+    - From 2000 randomly generated latitudes and longitudes, we were able to retrieve information about 677 cities. 
+    - We performed an API call and retrieved certain information about each city in our list, then collected them all in one DataFrame. <br>
+        
+        |![677 Cities DataFrame.](./Images/city_data_df.png)|
+        |-|
 
 
 ## Conclusions
