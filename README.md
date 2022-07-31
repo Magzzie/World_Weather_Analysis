@@ -1,5 +1,5 @@
 # World_Weather_Analysis
-
+In this project, we intend to use WeatherMap API, GMAPs Places & Directions APIs to create advanced location, weather, and accommodations maps that enhance the client's search capabilities and hopefully draw more clients to to PlanMyTrip website. 
 
 ## Background 
 
@@ -18,9 +18,8 @@ To perform this task we plan on taking the follwoing steps:
 #### Second Stage Analysis: Upgrade the App
 PlanMyTrip Analysis Team and Beta testers love it the app. And, as with any new product, they have recommended a few changes to take the app to the next level. Specifically, they recommend adding the weather description to the weather data we had already retrieved in the first stage of the project. Then, we will have the beta testers use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. Finally, using the Google Maps Directions API, we will create a travel route between the four cities as well as a marker layer map.
 
-
 ### Purpose
-
+#### Second Stage
 In this project we will use a Jupyter notebook, Pandas Library, the Python CitiPy module, Python Requests, APIs, and JSON Traversals to collect weather data from over 500 cities around the world. <br>
 We will then analyze the data using pandas and plot the data using the matplotlib library and Google Maps API.  <br>
 Finally, you will perform a statistical analysis with the SciPy Library. <br>
@@ -39,7 +38,7 @@ The end results will be a series of plots that visually and statistically show t
 - Data Source: 
 - Software: Anaconda (4.11.0), Python (3.7.6).
 - Libraries and Packages: Pandas, NumPy, Jupyter notebook, Matplotlib, Python CitiPy module, Python Requests, APIs, JSON Traversals, SciPy. 
-- Online Tools: Google Maps API, [World Weather Analysis GitHub Repository](https://github.com/Magzzie/World_Weather_Analysis)
+- Online Tools: WeatherMap API, Google Maps Places API, Google Maps Directions API[World Weather Analysis GitHub Repository](https://github.com/Magzzie/World_Weather_Analysis)
 
 
 ## Methods 
@@ -55,7 +54,6 @@ The end results will be a series of plots that visually and statistically show t
 3. Create a Travel Itinerary Map:
 - We used the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. 
 - Then, we created a marker layer map with a pop-up marker for each city on the itinerary.
-
 
 
 ## Results
