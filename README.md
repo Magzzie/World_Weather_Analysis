@@ -45,7 +45,7 @@ The end results will be a series of plots that visually and statistically show t
 ## Methods 
 
 1. Retrieve Weather Data: 
-    - We generated a set of 2,000 random latitudes and longitudes, retrieved the nearest city, and performed an API call with the OpenWeatherMap. 
+    - We generated a set of 10,000 random latitudes and longitudes, retrieved the nearest city, and performed an API call with the OpenWeatherMap. 
     - In addition to the city weather data we gathered in the first stage of the project, we used our API skills to retrieve the current weather description for each city. 
     - Then, we created a new DataFrame containing the updated weather data.
 
@@ -97,40 +97,4 @@ The end results will be a series of plots that visually and statistically show t
 *Bon Voyage!*
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
