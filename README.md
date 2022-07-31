@@ -54,9 +54,6 @@ The end results will be a series of plots that visually and statistically show t
 
 
 
-
-
-
 - We started the upgrade analysis by adding the weather description to the weather data we had already retrieved in the first stage of the project. 
 
 - Then, we created a filtering option to allow the beta testers to use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. 
@@ -70,11 +67,15 @@ The end results will be a series of plots that visually and statistically show t
 ## Results
 
 1. Retrieving Weather Data: 
-    - From 2000 randomly generated latitudes and longitudes, we were able to retrieve information about 677 cities. 
+    - From 10000 randomly generated latitudes and longitudes of 753 cities, we were able to retrieve information about 1478 cities. 
     - We performed an API call and retrieved certain information about each city in our list, then collected them all in one DataFrame. <br>
         
         |![677 Cities DataFrame.](./Images/city_data_df.png)|
         |-|
+
+2. 
+
+
 
 
 ## Conclusions
