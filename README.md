@@ -52,31 +52,47 @@ The end results will be a series of plots that visually and statistically show t
 2. Create a Customer Travel Destinations Map:
 - We used input statements to retrieve customer weather preferences, then used those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
 
+3. Create a Travel Itinerary Map:
+- We used the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. 
+- Then, we created a marker layer map with a pop-up marker for each city on the itinerary.
 
-
-- We started the upgrade analysis by adding the weather description to the weather data we had already retrieved in the first stage of the project. 
-
-- Then, we created a filtering option to allow the beta testers to use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. 
-
-- From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. 
-
-
-- Finally, using the Google Maps Directions API, we would create a travel route between the four cities as well as a marker layer map.
 
 
 ## Results
 
 1. Retrieving Weather Data: 
     - From 10000 randomly generated latitudes and longitudes of 753 cities, we were able to retrieve information about 1478 cities. 
+    - We started the upgrade analysis by adding the weather description to the weather data we had already retrieved in the first stage of the project.
     - We performed an API call and retrieved certain information about each city in our list, then collected them all in one DataFrame. <br>
         
         |![677 Cities DataFrame.](./Images/city_data_df.png)|
         |-|
 
-2. 
+2. We created a filtering option to allow the beta testers to use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. <br>
+        
+    |![Hotels Map Based on Selected Temps](./Vacation_Search/hotels_map_70_80.png)|
+    |-|
 
+3. To enable users to interact with our vacation maps even further, we created a travel itinerary map. 
+- From the list of potential travel destinations, the beta tester will choose four cities to create a travel itinerary. 
+- After that we would create a travel route between the four cities as well as a marker layer map using the Google Maps Directions API, 
+- For example, if the user wishes to take a road trip in the north east side of spain, they can start at Valls near Barcelona, drive northwest to Huesca, then west to Soria and back southeast to Valls through Zaragoza.<br> 
 
+    |![Spain Trip Cities](./Vacation_Itinerary/spain_trip_cities.png)|
+    |-|    
+    
+- We were able to add a travel layer for the road and another for the markers with information about the city's hotel, temperature and weather condition. <br>
 
+    - Travel Map:
+    
+        |![Spain Trip Itinerary Map](./Vacation_Itinerary/WeatherPy_travel_map.png)|
+        |-|
+    
+    - Info Map: 
+    
+        |![Spain Trip Itenerary with Markers](./Vacation_ItineraryWeatherPy_travel_map_markers.png)|
+        |-|
+        
 
 ## Conclusions
 
