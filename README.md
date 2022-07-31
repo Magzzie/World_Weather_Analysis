@@ -83,21 +83,18 @@ The end results will be a series of plots that visually and statistically show t
     
 - We were able to add a travel layer for the road and another for the markers with information about the city's hotel, temperature and weather condition. <br>
 
-    - Travel Map:
+    - Travel Map:<br>
     
         |![Spain Trip Itinerary Map](./Vacation_Itinerary/WeatherPy_travel_map.png)|
         |-|
     
-    - Info Map: 
+    - Info Map: <br>
     
-        |![Spain Trip Itenerary with Markers](./Vacation_ItineraryWeatherPy_travel_map_markers.png)|
+        |![Spain Trip Itenerary with Markers](./Vacation_Itinerary/WeatherPy_travel_map_markers.png)|
         |-|
         
-
 ## Conclusions
-
-
-
+*Bon Voyage!*
 
 ---
 
