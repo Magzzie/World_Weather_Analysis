@@ -68,7 +68,7 @@ The end results will be a series of plots that visually and statistically show t
 
 2. We created a filtering option to allow the beta testers to use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. <br>
         
-    |![Hotels Map Based on Selected Temps](./Vacation_Search/hotels_map_70_80.png)|
+    |![Hotels Map Based on Selected Temps](./Vacation_Search/hotels_map_70_80.png|
     |-|
 
 3. To enable users to interact with our vacation maps even further, we created a travel itinerary map. 
