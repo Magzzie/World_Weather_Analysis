@@ -37,8 +37,8 @@ The end results will be a series of plots that visually and statistically show t
 ## Resources
 - Data Source: 
 - Software: Anaconda (4.11.0), Python (3.7.6).
-- Libraries and Packages: Pandas, NumPy, Jupyter notebook, Matplotlib, Python CitiPy module, Python Requests, APIs, JSON Traversals, SciPy. 
-- Online Tools: WeatherMap API, Google Maps Places API, Google Maps Directions API[World Weather Analysis GitHub Repository](https://github.com/Magzzie/World_Weather_Analysis)
+- Libraries and Packages: Pandas, NumPy, Jupyter notebook, Matplotlib, Python CitiPy module, Python Requests, APIs, JSON Traversal, SciPy. 
+- Online Tools: WeatherMap API, Google Maps Places API, Google Maps Directions API, [World Weather Analysis GitHub Repository](https://github.com/Magzzie/World_Weather_Analysis)
 
 
 ## Methods 
@@ -68,7 +68,7 @@ The end results will be a series of plots that visually and statistically show t
 
 2. We created a filtering option to allow the beta testers to use input statements to filter the data for their weather preferences, which will be used to identify potential travel destinations and nearby hotels. <br>
         
-    |![Hotels Map Based on Selected Temps](./Vacation_Search/hotels_map_70_80.png|
+    |![Hotels Map Based on Selected Temps](./Vacation_Search/hotels_map_70_80.png)|
     |-|
 
 3. To enable users to interact with our vacation maps even further, we created a travel itinerary map. 
