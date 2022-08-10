@@ -1,4 +1,4 @@
-# World_Weather_Analysis
+# World_Weather_Maps_for_Better_Vacations
 In this project, we intend to use WeatherMap API, GMAPs Places & Directions APIs to create advanced location, weather, and accommodations maps that enhance the client's search capabilities and hopefully draw more clients to to PlanMyTrip website. 
 
 ## Background 
